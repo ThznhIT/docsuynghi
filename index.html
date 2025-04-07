@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/jpeg" href="doc_suy_nghi_nguoi_khac_3.jpg">
+        <meta charset="UTF-8" >
+        <title>đọc suy nghĩ:))</title>
+        <style>
+            h1,p,div{
+                text-align: center;
+            }
+            p{
+                font-size: 1000;
+            }
+        </style>
+        <script>
+            function getdata(){
+                document.body.innerHTML="<h1>bạn đang nghĩ</h1>"+"<p>"+document.getElementById("data").value+"</p>"
+                +"<div><button onclick='location.reload()'>quay về thực tại</button></div>";
+            }
+        </script>
+    </head>
+    <body>
+        <h1 style="text-align: center;">wed đọc suy nghĩ hehe</h1>
+        <div>
+       <input style="text-align: center;" type="text" id="data" placeholder="nhập suy nghĩ"> 
+       <button onclick="getdata()">đọc suy nghĩ</button>
+        </div>
+    </body>
+</html>
